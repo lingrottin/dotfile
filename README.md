@@ -1,0 +1,2 @@
+# dotfile
+My own configurations
