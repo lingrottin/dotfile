@@ -4,6 +4,7 @@ Features:
  - Dark Pastels color scheme from Konsole.
  - Default shell is `zsh`
 <br />
-According to [WezTerm Wiki](https://wezfurlong.org/wezterm/config/files.html), just put the `wezterm.lua` into `$HOME/.config/wezterm/wezterm.lua` on \*NIX or `wezterm.lua` in the same dir as `wezterm.exe` on Windows.
+According to <a href="https://wezfurlong.org/wezterm/config/files.html">WezTerm Wiki</a>, just put the <code>wezterm.lua</code> into <code>$HOME/.config/wezterm/wezterm.lua</code> on \*NIX or <code>wezterm.lua</code> in the same dir as <code>wezterm.exe</code> on Windows.  
+
 ## Screenshot
-![screenshot](/WezTerm/screenshot.png)
+<img src="/WezTerm/screenshot.png" />
