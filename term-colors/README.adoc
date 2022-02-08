@@ -1,0 +1,43 @@
+= Lingrottin's Terminal Color Schemes =
+// Tienyu Yang <ellistwooten8269@outllok.com>
+
+[NOTE]
+I like "_Dark Pastels_" from Konsole very much, so in this repo you'll probrably never see other color scheme. Every scheme here is come from https://invent.kde.org/utilities/konsole/-/blob/master/data/color-schemes/DarkPastels.colorscheme[KDE GitLab].
+
+== Supported Terminals ==
+- Windows Terminal
+- Fluent Terminal
+- WezTerm
+
+For alacritty you can just use https://github.com/eendroroy/alacritty-theme/blob/master/themes/dark_pastels.yaml[eendroroy's alacritty-theme repo]
+
+== How to Use ==
+Just follow the guide down here: +
+
+=== Windows Terminal ===
+Open your Windows Terminal, press `Ctrl`+`,` (and press `Open JSON file` below the sidebar if your `wt` is up-to-date). +
+The copy all the content of `WindowsTerminal.json` in this repository under the `schemes` section in your JSON file. Don't forget to add a little comma!
+
+=== Fluent Terminal ===
+Well, you can do this the most easily. +
+Simply press `Ctrl`+`Shift`+`,`, select Themes and click `Import`. Then select `Dark_Pastels.flutecolors` in this repository.
+
+=== WezTerm ===
+According to https://wezfurlong.org/wezterm/config/appearance.html[WezTerm offical wiki], you can insert the file content from `WezTerm_config.lua` to the section `color_schemes` then use the scheme in `color_scheme`, like:
+
+[source, lua]
+----
+return {
+    -- your configuration
+    color_schemes = {
+        ["Dark Pastels"] = {
+            -- copy my configuration here
+        },
+        ["Your Scheme"] = {
+            -- your schemes
+        }
+    },
+    
+    color_scheme = "Dark Pastels", -- Then you can use this.
+}
+----

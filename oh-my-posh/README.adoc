@@ -1,0 +1,12 @@
+= The Hungry Steel Prompt =
+
+A oh-my-posh theme written in TOML.
+
+== Features ==
+- Beautiful.
+- Very beautiful.
+- So beautiful.
+- And more...
+
+== How to Use ==
+Follow https://ohmyposh.dev/docs/windows#replace-your-existing-prompt[oh-my-posh wiki], but replace the path with the path to `hungry-steel.omp.toml`.

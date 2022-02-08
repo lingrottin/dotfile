@@ -1,0 +1,31 @@
+{
+  "EncodedImage": "",
+  "Name": "Dark Pastels",
+  "Author": "KDE e.V.",
+  "Colors": {
+    "Foreground": "#DCDCCC",
+    "Background": "#2C2C2C",
+    "Cursor": "#DCDCCC",
+    "CursorAccent": "#2C2C2C",
+    "Selection": "rgba(255, 255, 236, 0.328125)",
+    "SelectionForeground": null,
+    "SelectionBackground": null,
+    "Black": "#3F3F3F",
+    "Red": "#705050",
+    "Green": "#60B48A",
+    "Yellow": "#DFAF8F",
+    "Blue": "#9AB8D7",
+    "Magenta": "#DC8CC3",
+    "Cyan": "#8CD0D3",
+    "White": "#DCDCCC",
+    "BrightBlack": "#709080",
+    "BrightRed": "#DCA3A3",
+    "BrightGreen": "#72D5A3",
+    "BrightYellow": "#F0DFAF",
+    "BrightBlue": "#94BFF3",
+    "BrightMagenta": "#EC93D3",
+    "BrightCyan": "#93E0E3",
+    "BrightWhite": "#FFFFFF"
+  },
+  "BackgroundImage": null
+}

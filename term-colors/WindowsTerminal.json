@@ -1,0 +1,25 @@
+// Paste this under "schemes", don't forget to add a comma behind!
+// Created with Windows Terminal Settings GUI
+{
+    "background": "#2C2C2C",
+    "black": "#3F3F3F",
+    "blue": "#9AB8D7",
+    "brightBlack": "#709080",
+    "brightBlue": "#94BFF3",
+    "brightCyan": "#93E0E3",
+    "brightGreen": "#72D5A3",
+    "brightPurple": "#EC93D3",
+    "brightRed": "#DCA3A3",
+    "brightWhite": "#FFFFFF",
+    "brightYellow": "#F0DFAF",
+    "cursorColor": "#DCDCCC",
+    "cyan": "#8CD0D3",
+    "foreground": "#DCDCCC",
+    "green": "#60B48A",
+    "name": "Dark Pastels",
+    "purple": "#DC8CC3",
+    "red": "#705050",
+    "selectionBackground": "#FFFFEC",
+    "white": "#DCDCCC",
+    "yellow": "#DFAF8F"
+}

@@ -1,0 +1,104 @@
+#:schema https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json
+# The Hungry Steel Prompt
+# Written by Lingrottin
+final_space = true
+version = 1.0
+
+[[blocks]]
+newline = true
+alignment = "left"
+type = "prompt"
+
+
+[[blocks.segments]]
+background = "#FF69B4"
+foreground = "#FFFFFF"
+style = "diamond"
+type = "shell"
+trailing_diamond = "\ue0b1-\ue0b3\ue0b2"
+leading_diamond = "\ue0b3\ue0b2"
+[blocks.segments.properties]
+mapped_shell_names = { pwsh = "PowerShell" }
+
+[[blocks.segments]]
+type = "text"
+style = "powerline"
+foreground = "#FFFFFF"
+background = "#FF69B4"
+powerline_symbol = ""
+[blocks.segments.properties]
+template = " >_ "
+
+[[blocks.segments]]
+type = "session"
+style = "powerline"
+foreground = "#6A5ACD"
+background = "#FFFFFF"
+powerline_symbol = ""
+[blocks.segments.properties]
+template = "{{ if .SSHSession }}\uf817 {{ end }}{{ .UserName }}@{{ .HostName }}"
+
+[[blocks.segments]]
+type = "path"
+style = "powerline"
+foreground = "#FFFFFF"
+background = "#20B2AA"
+powerline_symbol = ""
+[blocks.segments.properties]
+folder_separator_icon = " \uE0B1 "
+style = "mixed"
+
+
+
+[[blocks]]
+alignment = "right"
+type = 'prompt'
+newline = false
+
+
+[[blocks.segments]]
+type = "time"
+style = "diamond"
+foreground = "#FFFFFF"
+background = "#3CB371"
+trailing_diamond = "\ue0b0\ue0b1"
+leading_diamond = "\ue0b3"
+[blocks.segments.properties]
+time_format = "15:04:05 January 2, 2006"
+template = " \ue385 {{ .CurrentDate | date .Format }} "
+
+
+
+[[blocks]]
+type = "prompt"
+newline = true
+alignment = "left"
+
+
+[[blocks.segments]]
+style = "diamond"
+type = "text"
+trailing_diamond = ""
+leading_diamond = "\ue0b3\ue0b2"
+background = "#FF69B4"
+background_templates = ["{{ if gt .Code 0 }}#DC143C{{ end }}"]
+foreground = "#FFFFFF"
+[blocks.segments.properties]
+template = " {{if gt .Code 0}}=C{{else}}=D{{end}}"
+
+[[blocks.segments]]
+background = "#FF69B4"
+background_templates = ["{{ if gt .Code 0 }}#DC143C{{ end }}"]
+foreground = "#FFFFFF"
+type = "poshgit"
+style = "powerline"
+
+[[blocks.segments]]
+background = "#FF69B4"
+background_templates = ["{{ if gt .Code 0 }}#DC143C{{ end }}"]
+foreground = "#FFFFFF"
+powerline_symbol = ""
+style = "powerline"
+type = "text"
+[blocks.segments.properties]
+template = "{{if gt .Code 0 }}  <b>ERR</b> {{else}}  <b>OK</b> {{ end }}-->"
