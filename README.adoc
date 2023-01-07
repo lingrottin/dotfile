@@ -1,0 +1,9 @@
+= dotfile =
+
+Lingrottin's own configurations.
+
+== What's there ==
+- link:/Cascadia-Code/[Patched Fonts].
+- link:/neofetch/[Neofetch configurations].
+- link:/term-colors/["Dark Pastels" from Konsole for many other terminals].
+- link:/oh-my-posh/[A beautiful oh-my-posh theme named "Hungry Steel"].
