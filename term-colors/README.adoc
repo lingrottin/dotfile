@@ -14,9 +14,13 @@ For alacritty you can just use https://github.com/eendroroy/alacritty-theme/blob
 == How to Use ==
 Just follow the guide down here: +
 
+=== iTerm2 ===
+Open your iTerm2, press `⌘O` (i.e. `Command`+`O` or `Windows`+`O`), edit one of your profiles and head to Profiles/Colors. +
+Click the `Color Presets` on the bottom-right corner, there you will see 'Import'. Then import `Dark Pastels.itermcolors` here.
+
 === Windows Terminal ===
 Open your Windows Terminal, press `Ctrl`+`,` (and press `Open JSON file` below the sidebar if your `wt` is up-to-date). +
-The copy all the content of `WindowsTerminal.json` in this repository under the `schemes` section in your JSON file. Don't forget to add a little comma!
+Then copy all the content of `WindowsTerminal.json` in this repository under the `schemes` section in your JSON file. Don't forget to add a little comma!
 
 === Fluent Terminal ===
 Well, you can do this the most easily. +
